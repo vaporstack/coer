@@ -6,11 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		573E63F121C34D96004CAA9C /* coer.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E63F021C34D96004CAA9C /* coer.m */; };
-		573E63F221C34D96004CAA9C /* coer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 573E63EF21C34D96004CAA9C /* coer.h */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		573E63EA21C34D96004CAA9C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				573E63F221C34D96004CAA9C /* coer.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +20,6 @@
 
 /* Begin PBXFileReference section */
 		573E63EC21C34D96004CAA9C /* libcoer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		573E63EF21C34D96004CAA9C /* coer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coer.h; sourceTree = "<group>"; };
-		573E63F021C34D96004CAA9C /* coer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +36,6 @@
 		573E63E321C34D96004CAA9C = {
 			isa = PBXGroup;
 			children = (
-				573E63EE21C34D96004CAA9C /* coer */,
 				573E63ED21C34D96004CAA9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +46,6 @@
 				573E63EC21C34D96004CAA9C /* libcoer.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		573E63EE21C34D96004CAA9C /* coer */ = {
-			isa = PBXGroup;
-			children = (
-				573E63EF21C34D96004CAA9C /* coer.h */,
-				573E63F021C34D96004CAA9C /* coer.m */,
-			);
-			path = coer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +82,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 573E63E721C34D96004CAA9C /* Build configuration list for PBXProject "coer" */;
+			buildConfigurationList = 573E63E721C34D96004CAA9C /* Build configuration list for PBXProject "coer-ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +104,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573E63F121C34D96004CAA9C /* coer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +247,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		573E63E721C34D96004CAA9C /* Build configuration list for PBXProject "coer" */ = {
+		573E63E721C34D96004CAA9C /* Build configuration list for PBXProject "coer-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				573E63F321C34D96004CAA9C /* Debug */,
