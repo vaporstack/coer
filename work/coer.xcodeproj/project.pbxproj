@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570E73C621D2E528008675F2 /* coer_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 570E73C421D2E528008675F2 /* coer_transform.c */; };
+		570E73C721D2E528008675F2 /* coer_transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 570E73C521D2E528008675F2 /* coer_transform.h */; };
 		573E640F21C34E29004CAA9C /* coer.c in Sources */ = {isa = PBXBuildFile; fileRef = 573E640D21C34E29004CAA9C /* coer.c */; };
 		573E641021C34E29004CAA9C /* coer.h in Headers */ = {isa = PBXBuildFile; fileRef = 573E640E21C34E29004CAA9C /* coer.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570E73C421D2E528008675F2 /* coer_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coer_transform.c; sourceTree = "<group>"; };
+		570E73C521D2E528008675F2 /* coer_transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coer_transform.h; sourceTree = "<group>"; };
 		573E640121C34DAE004CAA9C /* libcoer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E640D21C34E29004CAA9C /* coer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = coer.c; path = ../coer.c; sourceTree = "<group>"; };
 		573E640E21C34E29004CAA9C /* coer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coer.h; path = ../coer.h; sourceTree = "<group>"; };
@@ -29,6 +33,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570E73C321D2E528008675F2 /* geo */ = {
+			isa = PBXGroup;
+			children = (
+				570E73C421D2E528008675F2 /* coer_transform.c */,
+				570E73C521D2E528008675F2 /* coer_transform.h */,
+			);
+			path = geo;
+			sourceTree = "<group>";
+		};
 		573E63F821C34DAE004CAA9C = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +64,7 @@
 		573E640821C34DED004CAA9C /* src */ = {
 			isa = PBXGroup;
 			children = (
+				570E73C321D2E528008675F2 /* geo */,
 			);
 			name = src;
 			path = ../src;
@@ -63,6 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570E73C721D2E528008675F2 /* coer_transform.h in Headers */,
 				573E641021C34E29004CAA9C /* coer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573E640F21C34E29004CAA9C /* coer.c in Sources */,
+				570E73C621D2E528008675F2 /* coer_transform.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7MSG2FEA9;
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = ../contrib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -256,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7MSG2FEA9;
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = ../contrib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
