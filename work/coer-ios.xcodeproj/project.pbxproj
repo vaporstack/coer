@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		570E73BF21D2E49E008675F2 /* coer_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 570E73BE21D2E49E008675F2 /* coer_transform.c */; };
 		570E73C221D2E4F6008675F2 /* coer.c in Sources */ = {isa = PBXBuildFile; fileRef = 570E73C021D2E4F6008675F2 /* coer.c */; };
+		570E742721D3426C008675F2 /* coer_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 570E742621D3426C008675F2 /* coer_sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		570E73BE21D2E49E008675F2 /* coer_transform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = coer_transform.c; sourceTree = "<group>"; };
 		570E73C021D2E4F6008675F2 /* coer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = coer.c; path = ../coer.c; sourceTree = "<group>"; };
 		570E73C121D2E4F6008675F2 /* coer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coer.h; path = ../coer.h; sourceTree = "<group>"; };
+		570E742521D3426C008675F2 /* coer_sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coer_sort.h; sourceTree = "<group>"; };
+		570E742621D3426C008675F2 /* coer_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coer_sort.c; sourceTree = "<group>"; };
 		573E63EC21C34D96004CAA9C /* libcoer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +48,7 @@
 		570E73BB21D2E491008675F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				570E742421D3426C008675F2 /* util */,
 				570E73BC21D2E491008675F2 /* geo */,
 			);
 			name = src;
@@ -58,6 +62,15 @@
 				570E73BE21D2E49E008675F2 /* coer_transform.c */,
 			);
 			path = geo;
+			sourceTree = "<group>";
+		};
+		570E742421D3426C008675F2 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				570E742521D3426C008675F2 /* coer_sort.h */,
+				570E742621D3426C008675F2 /* coer_sort.c */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 		573E63E321C34D96004CAA9C = {
@@ -135,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570E73C221D2E4F6008675F2 /* coer.c in Sources */,
+				570E742721D3426C008675F2 /* coer_sort.c in Sources */,
 				570E73BF21D2E49E008675F2 /* coer_transform.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
