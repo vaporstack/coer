@@ -60,4 +60,6 @@ docs/
 *xcdebugger*
 *xcshareddata*
 
+*.sublime-workspace
+
 *.xcuserdatad
