@@ -10,7 +10,7 @@ set(coer_VERSION_MINOR 0)
 set(coer_VERSION_PATCH 1)
 
 option(BuildCoerDocumentation "BuildDocumentation" OFF)
-option(BuildCoerTest "BuildTest" OFF)
+option(BuildCoerTest "BuildTest" ON)
 option(BuildCoerLibrary "Build the coer library for embedding or linking" ON)
 
 if(CMAKE_BUILD_TYPE)
@@ -31,15 +31,10 @@ if(${have_r4_environment})
   message("Building within r4 lib structure.")
 else()
 
-  find_package(Libcoer)
-  if( coer_FOUND)
-    add_definitions(-Dcoer_ENABLE_coer)
-  endif()
-
-  find_package(LibGPC)
-  if (GPC_FOUND)
-    add_definitions(-DBRUSH_ENABLE_GPC)
-  endif()
+ #find_package(Libcoer)
+ # if( coer_FOUND)
+ #   add_definitions(-Dcoer_ENABLE_coer)
+ #endif()
 
   find_package(LibGLFW )
   include_directories(${LibGLFW_INCLUDE_DIRS})

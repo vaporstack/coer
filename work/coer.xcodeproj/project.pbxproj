@@ -13,6 +13,8 @@
 		570E741B21D33D26008675F2 /* coer_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 570E741921D33D26008675F2 /* coer_sort.c */; };
 		573E640F21C34E29004CAA9C /* coer.c in Sources */ = {isa = PBXBuildFile; fileRef = 573E640D21C34E29004CAA9C /* coer.c */; };
 		573E641021C34E29004CAA9C /* coer.h in Headers */ = {isa = PBXBuildFile; fileRef = 573E640E21C34E29004CAA9C /* coer.h */; };
+		5768386221FC190E0099EFE7 /* coer_anim.h in Headers */ = {isa = PBXBuildFile; fileRef = 5768386021FC190E0099EFE7 /* coer_anim.h */; };
+		5768386321FC190E0099EFE7 /* coer_anim.c in Sources */ = {isa = PBXBuildFile; fileRef = 5768386121FC190E0099EFE7 /* coer_anim.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		573E640D21C34E29004CAA9C /* coer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = coer.c; path = ../coer.c; sourceTree = "<group>"; };
 		573E640E21C34E29004CAA9C /* coer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coer.h; path = ../coer.h; sourceTree = "<group>"; };
 		573E641121C34E7C004CAA9C /* contrib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = contrib; path = ../contrib; sourceTree = "<group>"; };
+		5768386021FC190E0099EFE7 /* coer_anim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coer_anim.h; sourceTree = "<group>"; };
+		5768386121FC190E0099EFE7 /* coer_anim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = coer_anim.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,21 @@
 		573E640821C34DED004CAA9C /* src */ = {
 			isa = PBXGroup;
 			children = (
+				5768385F21FC19020099EFE7 /* anim */,
 				570E741721D33D0E008675F2 /* util */,
 				570E73C321D2E528008675F2 /* geo */,
 			);
 			name = src;
 			path = ../src;
+			sourceTree = "<group>";
+		};
+		5768385F21FC19020099EFE7 /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				5768386021FC190E0099EFE7 /* coer_anim.h */,
+				5768386121FC190E0099EFE7 /* coer_anim.c */,
+			);
+			path = anim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +107,7 @@
 			files = (
 				570E73C721D2E528008675F2 /* coer_transform.h in Headers */,
 				570E741A21D33D26008675F2 /* coer_sort.h in Headers */,
+				5768386221FC190E0099EFE7 /* coer_anim.h in Headers */,
 				573E641021C34E29004CAA9C /* coer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573E640F21C34E29004CAA9C /* coer.c in Sources */,
+				5768386321FC190E0099EFE7 /* coer_anim.c in Sources */,
 				570E741B21D33D26008675F2 /* coer_sort.c in Sources */,
 				570E73C621D2E528008675F2 /* coer_transform.c in Sources */,
 			);
