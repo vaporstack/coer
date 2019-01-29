@@ -12,7 +12,7 @@
 
 
 #include "contrib/deps/gl-matrix/gl-matrix.h"
-
+#include "src/geo/coer_point.h"
 
 
 #endif /* coer_h */

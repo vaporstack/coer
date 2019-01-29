@@ -15,6 +15,8 @@
 		573E641021C34E29004CAA9C /* coer.h in Headers */ = {isa = PBXBuildFile; fileRef = 573E640E21C34E29004CAA9C /* coer.h */; };
 		5768386221FC190E0099EFE7 /* coer_anim.h in Headers */ = {isa = PBXBuildFile; fileRef = 5768386021FC190E0099EFE7 /* coer_anim.h */; };
 		5768386321FC190E0099EFE7 /* coer_anim.c in Sources */ = {isa = PBXBuildFile; fileRef = 5768386121FC190E0099EFE7 /* coer_anim.c */; };
+		57BB01DF21FFC6CE0067AFCF /* coer_point.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BB01DD21FFC6CE0067AFCF /* coer_point.h */; };
+		57BB01E021FFC6CE0067AFCF /* coer_point.c in Sources */ = {isa = PBXBuildFile; fileRef = 57BB01DE21FFC6CE0067AFCF /* coer_point.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		573E641121C34E7C004CAA9C /* contrib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = contrib; path = ../contrib; sourceTree = "<group>"; };
 		5768386021FC190E0099EFE7 /* coer_anim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coer_anim.h; sourceTree = "<group>"; };
 		5768386121FC190E0099EFE7 /* coer_anim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = coer_anim.c; sourceTree = "<group>"; };
+		57BB01DD21FFC6CE0067AFCF /* coer_point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coer_point.h; sourceTree = "<group>"; };
+		57BB01DE21FFC6CE0067AFCF /* coer_point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = coer_point.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			children = (
 				570E73C421D2E528008675F2 /* coer_transform.c */,
 				570E73C521D2E528008675F2 /* coer_transform.h */,
+				57BB01DD21FFC6CE0067AFCF /* coer_point.h */,
+				57BB01DE21FFC6CE0067AFCF /* coer_point.c */,
 			);
 			path = geo;
 			sourceTree = "<group>";
@@ -105,6 +111,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BB01DF21FFC6CE0067AFCF /* coer_point.h in Headers */,
 				570E73C721D2E528008675F2 /* coer_transform.h in Headers */,
 				570E741A21D33D26008675F2 /* coer_sort.h in Headers */,
 				5768386221FC190E0099EFE7 /* coer_anim.h in Headers */,
@@ -168,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BB01E021FFC6CE0067AFCF /* coer_point.c in Sources */,
 				573E640F21C34E29004CAA9C /* coer.c in Sources */,
 				5768386321FC190E0099EFE7 /* coer_anim.c in Sources */,
 				570E741B21D33D26008675F2 /* coer_sort.c in Sources */,
