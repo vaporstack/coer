@@ -9,7 +9,7 @@ file(GLOB sources src/*.c)
 
 add_executable(test_coer  ${sources})
 
-add_library(coer STATIC ${sources})
+# add_library(coer STATIC ${sources})
 
 # same here
 # target_include_directories (test_coer PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../../../libs)
