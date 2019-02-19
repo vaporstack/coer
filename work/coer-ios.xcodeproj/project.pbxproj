@@ -31,6 +31,7 @@
 		570E73C121D2E4F6008675F2 /* coer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coer.h; path = ../coer.h; sourceTree = "<group>"; };
 		570E742521D3426C008675F2 /* coer_sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coer_sort.h; sourceTree = "<group>"; };
 		570E742621D3426C008675F2 /* coer_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coer_sort.c; sourceTree = "<group>"; };
+		571D7E8D221CCB4500A5EAE7 /* c_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c_platform.h; sourceTree = "<group>"; };
 		573E63EC21C34D96004CAA9C /* libcoer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,6 +51,7 @@
 			children = (
 				570E742421D3426C008675F2 /* util */,
 				570E73BC21D2E491008675F2 /* geo */,
+				571D7E8D221CCB4500A5EAE7 /* c_platform.h */,
 			);
 			name = src;
 			path = ../src;
