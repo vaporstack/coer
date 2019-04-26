@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5705355B2270E42D00198EC8 /* coer_draggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = coer_draggable.h; path = ../anim/coer_draggable.h; sourceTree = "<group>"; };
 		570E73C421D2E528008675F2 /* coer_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coer_transform.c; sourceTree = "<group>"; };
 		570E73C521D2E528008675F2 /* coer_transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coer_transform.h; sourceTree = "<group>"; };
 		570E741821D33D26008675F2 /* coer_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coer_sort.h; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		570E741721D33D0E008675F2 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				5705355B2270E42D00198EC8 /* coer_draggable.h */,
 				570E741821D33D26008675F2 /* coer_sort.h */,
 				570E741921D33D26008675F2 /* coer_sort.c */,
 			);
