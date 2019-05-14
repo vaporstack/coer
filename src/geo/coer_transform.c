@@ -8,9 +8,8 @@
 
 #include "coer_transform.h"
 
-#include <deps/gl-matrix/gl-matrix.h>
-
-typedef struct CTransform
+/*
+typedef struct
 {
 	vec3_t anchor;
 	vec3_t position;
@@ -22,7 +21,21 @@ typedef struct CTransform
 	// WVec3d scale;
 	// double opacity;
 } CTransform;
+*/
 
-void coer_transform_create(CTransform* t);
-void coer_transform_destroy(CTransform* t);
-void coer_transform_reset(CTransform* t);
+void coer_transform_create(CTransform* t)
+{
+	
+	
+}
+
+void coer_transform_destroy(CTransform* t)
+{
+	
+}
+
+void coer_transform_reset(CTransform* t)
+{
+	
+}
+
